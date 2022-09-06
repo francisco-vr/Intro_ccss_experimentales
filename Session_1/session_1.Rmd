@@ -1,0 +1,638 @@
+---
+title: "Actitudes: Teoría y formas de medición"
+author: 
+  - "Francisco Villarroel Riquelme"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      countdown: 600000
+    seal: false
+---
+class:center, middle, .bg_karl
+background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6XIM6HGFZDSJJT5GHTYLYHIFI.jpg&w=1450)
+background-size: 1250px
+background-position: 50% 50%
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(knitr)
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#b01333",
+  secondary_color = "#085e9f",
+  inverse_header_color = "#FFFFFF"
+)
+```
+```{css, echo = F}
+.bg_karl {
+  position: relative;
+  z-index: 1;
+}
+.bg_karl::before {    
+      content: "";
+      background-image: url('https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6XIM6HGFZDSJJT5GHTYLYHIFI.jpg&w=1450');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+      z-index: -1;
+}
+```
+
+## Introducción a las Ciencias Sociales Experimentales
+
+### Teoría, clasificaciones y estudios de caso
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+#### Francisco Villarroel Riquelme (CICS- UDD) 
+#### 
+
+<br>
+
+```{r, echo=FALSE, message = FALSE, out.width="40%", fig.align='center', fig}
+knitr::include_graphics("session_1_files/logo_mepop.png")
+```
+
+
+```{r}
+
+```
+
+
+
+---
+background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+# ¿Qué veremos hoy?
+
+- La definición y los componentes de un experimento
+- Comprender las líneas teóricas que lo sustentan y su potencial explicativo
+- Mostrar los tipos de experimentos, junto a su potencial y debilidades
+
+---
+class: inverse center middle
+
+# La búsqueda por la causalidad en las Ciencias Sociales
+
+--
+
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: center, middle
+
+## ¡Qué es un experimento?
+
+--
+
+
+>_"Un experimento es un testeo científico de hipótesis o o principios llevados a cabo bajo condiciones cuidadosamentre controladas de manera de determinar o descubrir algo desconocido. Los experimentos proveen insights sobre la relación entre cosas cuando los cambios en un elemento causan un efecto en otro"_ (Coleman, 2014)
+---
+
+class: inverse center middle
+
+## Componentes fundamentales en un experimento
+
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Condiciones experimentales
+
+.pull-left[
+
+```{r, echo=FALSE, out.width="150%"}
+
+knitr::include_graphics("session_1_files/contro_treat.webp")
+
+```
+
+]
+
+
+.pull-right[
+
+- Son una forma de intervención y modificación del entorno
+
+- Compuesta de al menos dos: un tratamiento y un grupo control
+
+- Teoría e hipótesis deben guiar la construcción de condiciones experimentales
+
+- Debe haber una diferencia sustancial entre condiciones experimentales
+
+- Pueden hacerse diseños sin tratamiento control, pero con línea de base
+
+]
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Aleatorización
+
+.pull-left[
+
+
+- Asignación aleatoria de sujetos a cada condición experimental
+
+- Permite diluir atributos personales para hacer un análisis causal más limpio (Tratamiento genera un efecto)
+
+- Si bien la aleatorización simple es la más usada, existen otras técnicas como la aleatorización en bloque
+
+]
+
+
+.pull-right[
+
+```{r, echo=FALSE, out.width="150%"}
+
+knitr::include_graphics("session_1_files/randomization-3-1024x641.png")
+
+```
+
+]
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+## ¿Este es un experimento propiamente tal?
+
+--
+
+.pull-left[
+
+- El experimento de Milgram (1963)
+
+- Mide el nivel de obediencia a la autoridad, hasta el punto de causar daños a otras personas
+
+- Usos del engaño varían según disciplina. Actualmente este experimento es irreplicable
+
+]
+
+.pull-right[
+
+
+```{r, echo=FALSE, out.width="150%"}
+
+knitr::include_graphics("session_1_files/milgram.png")
+
+```
+
+]
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+### ¿Cómo analizar los datos experimentales?
+
+
+- De manera más común, se miden a partir de las diferencias entre medias, en particular con el _Averange treatment effect_ (ATE)
+
+ 
+
+- Sin embargo, también se puede analizar a partir de métodos como
+
+  - ANOVA'S
+  - MANCOVAS
+  - Test T
+  - Regresiones OLS
+  - Diff in Diff 
+  
+- Además, existen otros métodos de medición especiales para distintos experimentos (ej: CATE para experimentos de campo)
+
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+
+## Cuestiones éticas en la investigación experimental
+
+- **Todos los estudios deben ser compensados monetariamente**
+
+--
+
+(Sin embargo, no todos se compensan de la misma forma)
+
+--
+
+- El uso de la mentira varía: En psicología social se usa mucho; en economía del comportamiento no se usa
+
+--
+
+- En estudios políticos, dependerá de la formación de los investigadores y las revistas donde publican
+
+--
+
+- **Evitar bajo cualquier circunstancia dañar a los participantes**
+
+---
+background-image: url(session_1_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+### Ejemplo de resultados de un experimento de creencia en fake news
+
+
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+
+knitr::include_graphics("session_1_files/Experimento2.png")
+
+```
+
+
+---
+class: inverse center middle
+
+## Tipos de experimentos
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Experimentos de Laboratorio
+
+.pull-left[
+#### Componentes de actitudes
+
+
+```{r, echo=FALSE, out.width="90%", fig.align='center'}
+
+knitr::include_graphics("session_1_files/cess_lab.jpg")
+
+```
+
+
+]
+
+--
+
+.pull-right[
+
+- Soy experimentos muy bacanes
+
+]
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+# Funciones de la actitudes
+
+- **Organización de conocimiento**
+  1. Ya que existe sobre carga informativa:
+    * Actitudes ayudan a _necesidad básica de conocimiento y control_
+    * Actitudes organizan info en términos positivos y negativos
+    * Actitudes ayudan a predecir características de esa nueva información
+    * Actitudes guían a información relevante (_¿Peligro de sesgos?_)
+  1. Actitudes guìan _búsqueda de equilibrio y coherencia_
+
+- **Función Instrumental o utilitaria**
+  1. Actitudes llevan a cumplir objetivos y evitar los no deseados
+  1. Se optimizan relaciones con el entorno.
+
+- **Función de identidad y expresión de valores**
+  1. Sirven para informar al entorno (y a uno mismo) quienes somos.
+  2. Hay un fortalecimiento de identidad (individuales y grupales)
+  3. Sirve para relacionarse con gente socialmente similar (homofilia)
+  4. Satisface _la necesidad básica de aceptación y pertenencia grupal_
+  
+---
+class: inverse center middle
+
+# Fuentes de construcción de actitudes
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+## **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
+
+--
+1) Premios y castigos que hemos recibido por nuestra conducta
+
+--
+
+2) Por modelado o imitación de otros
+
+--
+
+3) Por refuerzo u observación de las consecuencias de la conducta en otros
+
+--
+
+Sin embargo hay que recordar las categorìas cognitivas, afectivas y conductuales
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Cognitiva
+
+#### La sola exposición a distintos estímulos durante a la vida genera pensamientos o creencias sobre objetos de actitud.
+
+#### También se generan actitudes en base a socialización de experiencias de terceros
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Afectiva
+
+#### Condicionamiento clásico
+
+--
+
+**Crear actitudes donde antes no había una formada**
+
+--
+
+#### Priming Afectivo
+
+--
+
+**Similar al anterior, pero primero se presenta el efecto incondicionado y luego el condicionado**
+
+--
+
+- Ej: fotos de amigos + fotos de lo que quiero condicionar (spoiler: ¡No siempre funciona!)
+
+--
+
+#### Mera Exposición
+
+--
+
+**La mera exposición constante a un estímulo, de forma repetitiva, puede generar una actitud positiva a él**
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Conductual
+
+#### Condicionamiento clásico
+
+--
+Expresiones faciales como señal de ciertas actitudes
+
+--
+
+#### Disonancia cognitiva
+
+--
+
+**Los humanos intentamos actuar acorde a nuestro pensamiento. si no ocurre existe disonancia cognitiva. Luego buscamos comportarnos acorde a lo que creemos**
+
+--
+
+#### Autovalidación
+
+--
+**A veces nuestrra propia conducta es por definición una validación para la misma**
+
+--
+
+#### Sesgo de búsqueda
+
+--
+**Similar a la disonancia cognitiva, cuando actuamos de cierta forma buscamos (selectivamente) pensamientos acordes con ello**
+
+---
+class: inverse center middle
+
+## ¿Actitudes = Comportamiento?
+
+--
+### ¡No necesariamente!
+
+---
+class: inverse center middle
+
+### Fortaleza de actitudes y su relación con el comportamiento
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Criterios objetivos de medición de actitudes
+
+--
+
+##### Extremismo
+
+--
+
+* Cuán intensa es mi actitud y en qué dirección
+
+--
+
+##### Accesibilidad
+
+--
+
+* Rapidez en que una actitud viene a nuestra mente
+
+--
+
+##### Ambivalencia
+
+--
+
+* Un objeto de actitud puede tener dos valores de distinto signo
+
+--
+
+##### Estabilidad
+
+--
+
+* Si esta actitud se mantiene intacta en el tiempo
+
+--
+
+##### Resistencia
+
+--
+
+* Indicador de cuánto te resistes a cambiar de actitud
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Criterios subjetivos de metición de actitudes
+
+---
+## Relación Actitudes y comportamiento. 
+
+[Tienen que ver básicamente sobre la percepción de los indicadores objetivos]
+
+--
+
+### Accesibilidad
+
+--
+
+* Facilidad con la que experimentan la actitud
+
+--
+
+### Estabilidad
+
+--
+
+* En qué medida considera que su actitud es estable
+
+--
+
+### Resistencia
+
+--
+
+* Cómo cree que su actitud resistiría a un ataque de información contraria a ella.
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Considere también:
+
+--
+
+#### Confianza
+
+--
+
+* Sustentada por experiencias pasadas directas; consensos sociales; cuando llegan fácil a la mente; cuando se ha pensado mucho.
+
+#### Importancia
+
+--
+
+* Relevancia que se le da a la propia actitud
+
+--
+
+#### Conocimiento
+
+--
+
+* Cantidad de conocimiento que se tiene sobre la actitud y su objeto de actitud
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+### Formas de medición de actitudes
+
+
+- Al ser constructos mentales, es difícil medir las actitudes de manera directa y fiable.
+
+--
+
+- Podemos dividirlas en métodos indirectos y directos
+
+---
+layout: false
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+## Escalas de diferencias semántico
+
+
+
+<img src="Actitudes_files/diferencial_semantico.png" alt="drawing"  width="950" class="center" style = "position:relative; left:45px; top:80px"/>
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+
+#### Escalas de Likert
+
+
+<img src="Actitudes_files/likert_scale.png" alt="drawing"  width="750" class="center" style = "position:relative; left:200px; top:10px"/>
+
+---
+class: left, middle
+
+<img src="Actitudes_files/situacion.png" alt="drawing"  width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+
+<img src="Actitudes_files/emociones.png" alt="drawing" width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+
+---
+class: inversed, center, middle
+background-image: url(https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png)
+background-size: 80px
+background-position: 50% 90%
+
+# ¡Gracias!
+
+
+fvillarroelr@udd.cl
+
+Slide creado con el paquete [**xaringan**](https://github.com/yihui/xaringan).
+
+
+El  chakra viene de [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), y [R Markdown](https://rmarkdown.rstudio.com).
+Este slide fue creado por [**xaringan**](https://github.com/yihui/xaringan) y [**XaringanThemer**](https://pkg.garrickadenbuie.com/xaringanthemer/index.html)
