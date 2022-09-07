@@ -118,7 +118,7 @@ background-size: 200px
 background-position: 97% 97%
 class: center, middle
 
-## ¡Qué es un experimento?
+## ¿Qué es un experimento?
 
 --
 
@@ -300,8 +300,6 @@ class: left, middle
 ## Experimentos de Laboratorio
 
 .pull-left[
-#### Componentes de actitudes
-
 
 ```{r, echo=FALSE, out.width="90%", fig.align='center'}
 
@@ -316,7 +314,73 @@ knitr::include_graphics("session_1_files/cess_lab.jpg")
 
 .pull-right[
 
-- Soy experimentos muy bacanes
+#### Características
+
+- Alto nivel de control de factores exógenos que opdrían ensuciar experimento (alta validez interna)
+- Sujetos experimentales van recintos físicos con distintas tareas (ej: teoría de juegos)
+- Habitualmente con n más reducidos (150 - 300 comúnmente)
+
+#### Desafíos
+
+- Intenso cuestionamiento a su validez externa por representatividad de muestras
+- Puede darse un ṕroblema de validez ecológica (¿Juegos abstractos miden lo que realmente busco?)
+
+]
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Ejemplo: 
+
+
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Ejemplo 2: El valor de la deliberación grupal en la valoración de información validada y falsa
+
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+
+knitr::include_graphics("session_1_files/ejemplo_lab.png")
+
+```
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Experimentos de campo
+
+.pull-left[
+#### Características
+
+- Realizados en los entornos donde se encuentran las personas que queremos investigar
+- Utilizan los elementos del medio en que se encuentran para realizar el experimento
+- Son económicos (no necesariamente se pagan)
+- Alcanzan una alta validez externa
+
+#### Desafíos
+
+- Existe una pérdida considerable de control del entorno, por lo que pueden haber variables que interrumpan
+- Alta atrición
+- Requiere un diseño altamente robusto
+
+]
+
+--
+
+.pull-right[
+
+- 
 
 ]
 
@@ -326,299 +390,94 @@ background-size: 200px
 background-position: 97% 97%
 class: left, middle
 
-# Funciones de la actitudes
+## Ejemplo: 
 
-- **Organización de conocimiento**
-  1. Ya que existe sobre carga informativa:
-    * Actitudes ayudan a _necesidad básica de conocimiento y control_
-    * Actitudes organizan info en términos positivos y negativos
-    * Actitudes ayudan a predecir características de esa nueva información
-    * Actitudes guían a información relevante (_¿Peligro de sesgos?_)
-  1. Actitudes guìan _búsqueda de equilibrio y coherencia_
 
-- **Función Instrumental o utilitaria**
-  1. Actitudes llevan a cumplir objetivos y evitar los no deseados
-  1. Se optimizan relaciones con el entorno.
 
-- **Función de identidad y expresión de valores**
-  1. Sirven para informar al entorno (y a uno mismo) quienes somos.
-  2. Hay un fortalecimiento de identidad (individuales y grupales)
-  3. Sirve para relacionarse con gente socialmente similar (homofilia)
-  4. Satisface _la necesidad básica de aceptación y pertenencia grupal_
-  
----
-class: inverse center middle
 
-# Fuentes de construcción de actitudes
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
 background-size: 200px
 background-position: 97% 97%
-
-## **Las actitudes son producto de numerosos procesos de socialización durante nuestras etapas de la vida**
-
---
-1) Premios y castigos que hemos recibido por nuestra conducta
-
---
-
-2) Por modelado o imitación de otros
-
---
-
-3) Por refuerzo u observación de las consecuencias de la conducta en otros
-
---
-
-Sin embargo hay que recordar las categorìas cognitivas, afectivas y conductuales
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Cognitiva
-
-#### La sola exposición a distintos estímulos durante a la vida genera pensamientos o creencias sobre objetos de actitud.
-
-#### También se generan actitudes en base a socialización de experiencias de terceros
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Afectiva
-
-#### Condicionamiento clásico
-
---
-
-**Crear actitudes donde antes no había una formada**
-
---
-
-#### Priming Afectivo
-
---
-
-**Similar al anterior, pero primero se presenta el efecto incondicionado y luego el condicionado**
-
---
-
-- Ej: fotos de amigos + fotos de lo que quiero condicionar (spoiler: ¡No siempre funciona!)
-
---
-
-#### Mera Exposición
-
---
-
-**La mera exposición constante a un estímulo, de forma repetitiva, puede generar una actitud positiva a él**
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Conductual
-
-#### Condicionamiento clásico
-
---
-Expresiones faciales como señal de ciertas actitudes
-
---
-
-#### Disonancia cognitiva
-
---
-
-**Los humanos intentamos actuar acorde a nuestro pensamiento. si no ocurre existe disonancia cognitiva. Luego buscamos comportarnos acorde a lo que creemos**
-
---
-
-#### Autovalidación
-
---
-**A veces nuestrra propia conducta es por definición una validación para la misma**
-
---
-
-#### Sesgo de búsqueda
-
---
-**Similar a la disonancia cognitiva, cuando actuamos de cierta forma buscamos (selectivamente) pensamientos acordes con ello**
-
----
-class: inverse center middle
-
-## ¿Actitudes = Comportamiento?
-
---
-### ¡No necesariamente!
-
----
-class: inverse center middle
-
-### Fortaleza de actitudes y su relación con el comportamiento
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Criterios objetivos de medición de actitudes
-
---
-
-##### Extremismo
-
---
-
-* Cuán intensa es mi actitud y en qué dirección
-
---
-
-##### Accesibilidad
-
---
-
-* Rapidez en que una actitud viene a nuestra mente
-
---
-
-##### Ambivalencia
-
---
-
-* Un objeto de actitud puede tener dos valores de distinto signo
-
---
-
-##### Estabilidad
-
---
-
-* Si esta actitud se mantiene intacta en el tiempo
-
---
-
-##### Resistencia
-
---
-
-* Indicador de cuánto te resistes a cambiar de actitud
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Criterios subjetivos de metición de actitudes
-
----
-## Relación Actitudes y comportamiento. 
-
-[Tienen que ver básicamente sobre la percepción de los indicadores objetivos]
-
---
-
-### Accesibilidad
-
---
-
-* Facilidad con la que experimentan la actitud
-
---
-
-### Estabilidad
-
---
-
-* En qué medida considera que su actitud es estable
-
---
-
-### Resistencia
-
---
-
-* Cómo cree que su actitud resistiría a un ataque de información contraria a ella.
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Considere también:
-
---
-
-#### Confianza
-
---
-
-* Sustentada por experiencias pasadas directas; consensos sociales; cuando llegan fácil a la mente; cuando se ha pensado mucho.
-
-#### Importancia
-
---
-
-* Relevancia que se le da a la propia actitud
-
---
-
-#### Conocimiento
-
---
-
-* Cantidad de conocimiento que se tiene sobre la actitud y su objeto de actitud
-
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-### Formas de medición de actitudes
-
-
-- Al ser constructos mentales, es difícil medir las actitudes de manera directa y fiable.
-
---
-
-- Podemos dividirlas en métodos indirectos y directos
-
----
-layout: false
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-## Escalas de diferencias semántico
-
-
-
-<img src="Actitudes_files/diferencial_semantico.png" alt="drawing"  width="950" class="center" style = "position:relative; left:45px; top:80px"/>
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-
-#### Escalas de Likert
-
-
-<img src="Actitudes_files/likert_scale.png" alt="drawing"  width="750" class="center" style = "position:relative; left:200px; top:10px"/>
-
----
 class: left, middle
 
-<img src="Actitudes_files/situacion.png" alt="drawing"  width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+## Encuestas experimentales
 
-<img src="Actitudes_files/emociones.png" alt="drawing" width="700" class="center" style = "position:relative; left:225px; top:10px"/>
+.pull-left[
+#### Características
+
+- Son encuestas que dentro de sí incluyen preguntas diferenciadas (a modo de tratamiento) y aleatorizadas
+- Tienden a hacerse con n más altos que los de laboratorio (400 - 1600)
+- Habitualmente cortas y sencillas de analizar
+- Variedad de formatos (experimentos de viñetas, de lista, Choice Experiments, Conjoint Expeirments, etc)
+
+#### Desafíos
+
+- Es fácil tender a medir actitudes por sobre comportamiento
+- Para lograr esto último requiere de buenas habilidades de programación y creatividad
+
+]
+
+--
+
+.pull-right[
+
+```{r, echo=FALSE, out.width="90%", fig.align='center'}
+
+knitr::include_graphics("session_1_files/cess_lab.jpg")
+
+```
+
+
+]
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Otros tipos de experimentos
+
+.pull-left[
+#### Experimentos Naturales
+
+- Experimentos que utilizan intervenciones que no son creadas por el investigador para analizar cambios de comportamiento
+- ej: Medición de interacción en RRSS durante el período de campaña electoral (antes y después)
+
+]
+
+--
+
+.pull-right[
+
+#### _Lab-in-the-field Experiments_
+
+- Experimentos diseñados como de laboratorio, pero aplicados en entornos naturales
+- Busca darle el rigor y control propio de los experimentos de laboratorio, pero en entornos más realistas propios del campo
+- Habitualmente requieren un nivel de programación y recursos mayores (ej: llevar tablets al campo y varios ayudantes)
+
+]
+
+---
+
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: left, top
+
+## Bibliografía sugerida para comenzar a aprender:
+
+- Coleman, Renita (2018). _Designing Experiments for the Social Sciences: How to Plan, Create, and Execute Research Using Experiments_. SAGE.
+
+- Morton, R & Williams, K (2011). _Experimental political science and the study of causality_. UK: Cambridge University press. 
+
+- Gerber, A. & Green, D (2012). _Field Experiments. Design, analysis and interpretation_. NY: Norton & Company.
+
+- Druckman, J & Green, D (2021). _Advances in experimental political Science_. UK: Cambridge University Press.
 
 ---
 class: inversed, center, middle
