@@ -69,7 +69,7 @@ h1, h2, h3 {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.25;
+      opacity: 0.35;
       z-index: -1;
 }
 ```
@@ -525,8 +525,15 @@ class: left, middle
 ]
 
 ---
+class: inverse center middle
 
+## Entonces: ¿Cómo puedo saber qué experimento me sirve?
 
+-- 
+
+Todo depende de cuáles son las preguntas de investigación
+
+--
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
