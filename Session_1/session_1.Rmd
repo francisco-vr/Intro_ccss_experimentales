@@ -15,10 +15,7 @@ output:
       countdown: 600000
     seal: false
 ---
-class:center, middle, .bg_karl
-background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6XIM6HGFZDSJJT5GHTYLYHIFI.jpg&w=1450)
-background-size: 1250px
-background-position: 50% 50%
+class:center, middle, bg_karl
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -44,7 +41,21 @@ style_duo_accent(
   inverse_header_color = "#FFFFFF"
 )
 ```
+```{css, echo=F}
+h1, h2, h3 {
+  text-align: center;
+}
+```
+
+
+
 ```{css, echo = F}
+
+.reduced_opacity {
+  opacity: 0.1;
+}
+
+
 .bg_karl {
   position: relative;
   z-index: 1;
@@ -58,7 +69,7 @@ style_duo_accent(
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.5;
+      opacity: 0.25;
       z-index: -1;
 }
 ```
@@ -68,29 +79,19 @@ style_duo_accent(
 ### Teoría, clasificaciones y estudios de caso
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 #### Francisco Villarroel Riquelme (CICS- UDD) 
 #### 
 
-<br>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 ```{r, echo=FALSE, message = FALSE, out.width="40%", fig.align='center', fig}
 knitr::include_graphics("session_1_files/logo_mepop.png")
 ```
-
-
-```{r}
-
-```
-
-
 
 ---
 background-image: url(Untitled/Untitled_files/logo_mepop.png)
@@ -104,11 +105,57 @@ background-position: 97% 97%
 - Mostrar los tipos de experimentos, junto a su potencial y debilidades
 
 ---
-class: inverse center middle
+background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
 
-# La búsqueda por la causalidad en las Ciencias Sociales
+.pull-left[
 
---
+### El problema de la causalidad en las Ciencias Sociales
+
+<br>
+<br>
+<br>
+
+<center>¿Podemos separar causas y efectos?</center>
+
+
+]
+
+
+.pull-right[
+
+```{r, echo=FALSE, fig.align='center', out.width="110%"}
+
+knitr::include_graphics("session_1_files/meme.png")
+
+```
+
+]
+
+---
+background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+<center> <h2> Bases de los estudios de comportamiento (años 50's - 70's)</h2> </center>
+
+
+```{r, echo=FALSE, fig.align='center', out.width="60%"}
+
+knitr::include_graphics("session_1_files/venn.png")
+
+```
+
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: center, middle
+
+## ¿Qué es un experimento?
 
 
 
@@ -239,6 +286,7 @@ class: left, middle
   - MANCOVAS
   - Test T
   - Regresiones OLS
+  - Regresiones de máxima verosimilitud (Logit, Probit, etc)
   - Diff in Diff 
   
 - Además, existen otros métodos de medición especiales para distintos experimentos (ej: CATE para experimentos de campo)
@@ -335,7 +383,23 @@ class: left, middle
 ## Ejemplo: 
 
 
+.pull-left[
 
+```{r, echo=FALSE, out.width="90%",fig.align='center'}
+
+knitr::include_graphics("session_1_files/lab_experiment.png")
+
+```
+
+]
+
+.pull-right[
+
+- Colaboración con presión por normas sociales
+- Hombres se vuelven más colaborativos cuando hay una mujer siendo testigo de su colaboración
+
+
+]
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
@@ -343,7 +407,7 @@ background-size: 200px
 background-position: 97% 97%
 class: left, middle
 
-## Ejemplo 2: El valor de la deliberación grupal en la valoración de información validada y falsa
+### Ejemplo 2: El valor de la deliberación grupal en la valoración de información validada y falsa
 
 ```{r, echo=FALSE, out.width="80%", fig.align='center'}
 
@@ -444,6 +508,7 @@ class: left, middle
 
 - Experimentos que utilizan intervenciones que no son creadas por el investigador para analizar cambios de comportamiento
 - ej: Medición de interacción en RRSS durante el período de campaña electoral (antes y después)
+- Su desafío principal es poder aislar causas y efectos, junto con la creación de un contrafactual
 
 ]
 
@@ -488,7 +553,7 @@ background-position: 50% 90%
 # ¡Gracias!
 
 
-fvillarroelr@udd.cl
+###fvillarroelr@udd.cl
 
 Slide creado con el paquete [**xaringan**](https://github.com/yihui/xaringan).
 

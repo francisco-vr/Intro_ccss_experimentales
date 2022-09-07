@@ -11,10 +11,7 @@
   <body>
     <textarea id="source">
 
-class:center, middle, .bg_karl
-background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6XIM6HGFZDSJJT5GHTYLYHIFI.jpg&amp;w=1450)
-background-size: 1250px
-background-position: 50% 50%
+class:center, middle, bg_karl
 
 
 
@@ -22,6 +19,20 @@ background-position: 50% 50%
 
 
 &lt;style type="text/css"&gt;
+h1, h2, h3 {
+  text-align: center;
+}
+&lt;/style&gt;
+
+
+
+&lt;style type="text/css"&gt;
+
+.reduced_opacity {
+  opacity: 0.1;
+}
+
+
 .bg_karl {
   position: relative;
   z-index: 1;
@@ -35,7 +46,7 @@ background-position: 50% 50%
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.5;
+      opacity: 0.25;
       z-index: -1;
 }
 &lt;/style&gt;
@@ -45,25 +56,17 @@ background-position: 50% 50%
 ### Teoría, clasificaciones y estudios de caso
 
 &lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
 
 #### Francisco Villarroel Riquelme (CICS- UDD) 
 #### 
 
+
 &lt;br&gt;
-
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;img src="session_1_files/logo_mepop.png" width="40%" style="display: block; margin: auto;" /&gt;
-
-
-
-
-
 
 ---
 background-image: url(Untitled/Untitled_files/logo_mepop.png)
@@ -77,11 +80,49 @@ background-position: 97% 97%
 - Mostrar los tipos de experimentos, junto a su potencial y debilidades
 
 ---
-class: inverse center middle
+background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
 
-# La búsqueda por la causalidad en las Ciencias Sociales
+.pull-left[
 
---
+### El problema de la causalidad en las Ciencias Sociales
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;center&gt;¿Podemos separar causas y efectos?&lt;/center&gt;
+
+
+]
+
+
+.pull-right[
+
+&lt;img src="session_1_files/meme.png" width="110%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+&lt;center&gt; &lt;h2&gt; Bases de los estudios de comportamiento (años 50's - 70's)&lt;/h2&gt; &lt;/center&gt;
+
+
+&lt;img src="session_1_files/venn.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: center, middle
+
+## ¿Qué es un experimento?
 
 
 
@@ -200,6 +241,7 @@ class: left, middle
   - MANCOVAS
   - Test T
   - Regresiones OLS
+  - Regresiones de máxima verosimilitud (Logit, Probit, etc)
   - Diff in Diff 
   
 - Además, existen otros métodos de medición especiales para distintos experimentos (ej: CATE para experimentos de campo)
@@ -288,7 +330,19 @@ class: left, middle
 ## Ejemplo: 
 
 
+.pull-left[
 
+&lt;img src="session_1_files/lab_experiment.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+- Colaboración con presión por normas sociales
+- Hombres se vuelven más colaborativos cuando hay una mujer siendo testigo de su colaboración
+
+
+]
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
@@ -296,7 +350,7 @@ background-size: 200px
 background-position: 97% 97%
 class: left, middle
 
-## Ejemplo 2: El valor de la deliberación grupal en la valoración de información validada y falsa
+### Ejemplo 2: El valor de la deliberación grupal en la valoración de información validada y falsa
 
 &lt;img src="session_1_files/ejemplo_lab.png" width="80%" style="display: block; margin: auto;" /&gt;
 
@@ -389,6 +443,7 @@ class: left, middle
 
 - Experimentos que utilizan intervenciones que no son creadas por el investigador para analizar cambios de comportamiento
 - ej: Medición de interacción en RRSS durante el período de campaña electoral (antes y después)
+- Su desafío principal es poder aislar causas y efectos, junto con la creación de un contrafactual
 
 ]
 
@@ -433,7 +488,7 @@ background-position: 50% 90%
 # ¡Gracias!
 
 
-fvillarroelr@udd.cl
+###fvillarroelr@udd.cl
 
 Slide creado con el paquete [**xaringan**](https://github.com/yihui/xaringan).
 
