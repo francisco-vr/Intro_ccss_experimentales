@@ -1,5 +1,5 @@
 ---
-title: "Actitudes: Teoría y formas de medición"
+title: ""
 author: 
   - "Francisco Villarroel Riquelme"
 date: '`r Sys.Date()`'
@@ -75,9 +75,9 @@ h1, h2, h3 {
 }
 ```
 
-## Introducción a las Ciencias Sociales Experimentales
+## Técnicas aplicadas en encuestas experimentales
 
-### Teoría, clasificaciones y estudios de caso
+### Experimentos de Lista y Experimento de viñetas
 
 <br>
 
@@ -91,7 +91,7 @@ h1, h2, h3 {
 <br>
 <br>
 ```{r, echo=FALSE, message = FALSE, out.width="40%", fig.align='center', fig}
-knitr::include_graphics("session_1_files/logo_mepop.png")
+knitr::include_graphics("session_2_files/logo_mepop.png")
 ```
 
 ---
@@ -101,9 +101,29 @@ background-position: 97% 97%
 
 # ¿Qué veremos hoy?
 
-- La definición y los componentes de un experimento
-- Comprender las líneas teóricas que lo sustentan y su potencial explicativo
-- Mostrar los tipos de experimentos, junto a su potencial y debilidades
+<br>
+<br>
+<br>
+
+- Conocer las definiciones y utilidades de los experimentos de lista y viñeta
+- Comprender cómo diseñas experimentos de lista y viñeta adecuados para distintos temas de CCSS Experimentales
+- Analizar distintos ejemplos de experimentos de Lista y Viñetas
+
+---
+background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-size: 200px
+background-position: 97% 97%
+class: center, middle
+
+## ¿Cómo preguntar en una encuesta cuestiones socialmente complejas?
+
+--
+
+**Las encuestas observacionales preguntan de manera directa cuestiones que las personas tienden a ocultar**
+
+--
+
+**El "Sesgo de desabilidad social" es el sesgo producido cuando de contesta creyendo en qué es lo más socialmente aceptable, y no lo que yo realmente pienso**
 
 ---
 background-image: url(Untitled/Untitled_files/logo_mepop.png)
@@ -112,13 +132,17 @@ background-position: 97% 97%
 
 .pull-left[
 
-### El problema de la causalidad en las Ciencias Sociales
 
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<center>¿Podemos separar causas y efectos?</center>
+### Preguntas típicas con sesgo de deseabilidad social
 
 
 ]
@@ -126,29 +150,22 @@ background-position: 97% 97%
 
 .pull-right[
 
-```{r, echo=FALSE, fig.align='center', out.width="110%"}
+1. [CEP 2019] "Me gustaría preguntarle sobre acciones que la gente hace para
+protestar contra algo que le parece injusto. ¿Con qué frecuencia usted justificaría o no justificaría las
+siguientes acciones.
+- Participar en Marchas como forma de protesta.
+- Evadir el pago de transporte público.
+- Participar en barricadas o destrozos como fora de protesta.
+- Provocar incendios en edificios y locales comerciales como forma de protesta.
+- Participar en saqueos como forma de protesta.
 
-knitr::include_graphics("session_1_files/meme.png")
+2. [ENS 2016] ¿Ha usado preservativo o condón en los últimos 12 meses?
 
-```
+3. [ENS 2016] Preguntar sobre métodos de intento de suicidio
+4. ¿Ud. Ha robado artículos en la empresa?
+
 
 ]
-
----
-background-image: url(Untitled/Untitled_files/logo_mepop.png)
-background-size: 200px
-background-position: 97% 97%
-
-<center> <h2> Bases de los estudios de comportamiento (años 50's - 70's)</h2> </center>
-
-
-```{r, echo=FALSE, fig.align='center', out.width="60%"}
-
-knitr::include_graphics("session_1_files/venn.png")
-
-```
-
-
 
 ---
 background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
@@ -156,8 +173,7 @@ background-size: 200px
 background-position: 97% 97%
 class: center, middle
 
-## ¿Qué es un experimento?
-
+## Experimentos de lista
 
 
 ---
@@ -174,6 +190,23 @@ class: center, middle
 >_"Un experimento es un testeo científico de hipótesis o o principios llevados a cabo bajo condiciones cuidadosamentre controladas de manera de determinar o descubrir algo desconocido. Los experimentos proveen insights sobre la relación entre cosas cuando los cambios en un elemento causan un efecto en otro"_ (Coleman, 2014)
 ---
 
+
+
+---
+background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+<center> <h2> Bases de los estudios de comportamiento (años 50's - 70's)</h2> </center>
+
+
+```{r, echo=FALSE, fig.align='center', out.width="60%"}
+
+#knitr::include_graphics("session_1_files/venn.png")
+
+```
+
+---
 class: inverse center middle
 
 ## Componentes fundamentales en un experimento
@@ -190,7 +223,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="150%"}
 
-knitr::include_graphics("session_1_files/contro_treat.webp")
+#knitr::include_graphics("session_1_files/contro_treat.webp")
 
 ```
 
@@ -234,7 +267,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="150%"}
 
-knitr::include_graphics("session_1_files/randomization-3-1024x641.png")
+#knitr::include_graphics("session_1_files/randomization-3-1024x641.png")
 
 ```
 
@@ -263,7 +296,7 @@ background-position: 97% 97%
 
 ```{r, echo=FALSE, out.width="150%"}
 
-knitr::include_graphics("session_1_files/milgram.png")
+#knitr::include_graphics("session_1_files/milgram.png")
 
 ```
 
@@ -330,7 +363,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="80%", fig.align='center'}
 
-knitr::include_graphics("session_1_files/Experimento2.png")
+#knitr::include_graphics("session_1_files/Experimento2.png")
 
 ```
 
@@ -352,7 +385,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="90%", fig.align='center',fig.cap="Laboratorio CESS"}
 
-knitr::include_graphics("session_1_files/cess_lab.jpg")
+#knitr::include_graphics("session_1_files/cess_lab.jpg")
 
 ```
 
@@ -388,7 +421,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="90%",fig.align='center', fig.cap="Iredale, W., Van Vugt, M., & Dunbar, R. (2008). Showing Off in Humans: Male Generosity as a Mating Signal. Evolutionary Psychology, 6(3),"}
 
-knitr::include_graphics("session_1_files/lab_experiment.png")
+#knitr::include_graphics("session_1_files/lab_experiment.png")
 
 ```
 
@@ -412,7 +445,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="70%", fig.align='center',fig.cap="Propuesta experimento de efectos de composición de grupos de deliberación en calificación de información"}
 
-knitr::include_graphics("session_1_files/ejemplo_lab.png")
+#knitr::include_graphics("session_1_files/ejemplo_lab.png")
 
 ```
 
@@ -447,7 +480,7 @@ class: left, middle
 
 ```{r,echo=FALSE,out.width="110%",fig.align='center',fig.cap="A/B Testing para ver comportamiento en base a distintas interfaces gráficas"}
 
-knitr::include_graphics("session_1_files/test-AB-2.webp")
+#knitr::include_graphics("session_1_files/test-AB-2.webp")
 
 ```
  
@@ -464,7 +497,7 @@ class: left, middle
 
 ```{r,echo=FALSE,fig.align='center',out.width="45%",fig.cap="Bail et.al(2018). Exposure to opposing views on social media can increase political polarization. PNAS. vol. 115. N°37"}
 
-knitr::include_graphics("session_1_files/pnas.1804840115fig01.jpeg")
+#knitr::include_graphics("session_1_files/pnas.1804840115fig01.jpeg")
 
 ```
 
@@ -501,7 +534,7 @@ class: left, middle
 
 ```{r, echo=FALSE, out.width="90%", fig.align='center'}
 
-knitr::include_graphics("session_1_files/cess_lab.jpg")
+#knitr::include_graphics("session_1_files/cess_lab.jpg")
 
 ```
 
