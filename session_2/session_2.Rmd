@@ -194,6 +194,11 @@ siguientes acciones.
 ]
 
 ---
+class: inverse center middle
+
+# Experimentos de viñeta
+
+---
 background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
@@ -364,19 +369,55 @@ background-position: 97% 97%
 
 --
 
+#### ¿Qué es una viñeta?
+
+>_"Una viñeta es una descripción de una persona objeto o situación cuidadosamente construida, representando una combinación sistemática de características"_(Atmüller y Steiner,2010)
+
+- **Objetivo**: "El diseño especial de viñeta permite la presentación simultánea de diversas explcaciones así como factores contextuales los cualeentrega escenarios más realistas presentados a los respodientes"
+
+--
+
+**¿Qué cosas pueden ser viñetas?**
+
+1. Textos
+2. imágenes
+3. Videos
+4. Cualquier cosa que se pueda modificar y controlar para ver efectos causales
+
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+## Modelos de diseño y pasos a seguir
+
+--
+
 .pull-left[
 
+#### Diseños Factoriales cofundados
 
+- Todas las viñetas se utilizan, y todos reciben la misma cantidad de viñetas
+- No es recomendable mostrar muchas viñetas seguidas. ¡la gente se cansa y aburre!
+- De esta manera la estructura de aleatorización y factores puede ser planeada
+- Diseños 2x1, 2x2, 3x2, 3x3,... nxn
 
 ]
+
 
 .pull-right[
 
-#### ¿Qué es una viñeta?
+#### Pasos a seguir:
 
->_"una viñeta es una descripción de una persona objeto o situación cuidadosamente construida, representando una combinación sistemática de características"(Atmüller y Steiner,2010)
+1. Definir cuántos factores pretendo aleatorizar
+2. Definir las "escalas" o cantidad de variaciones que tendrá cada factor
+3. Construir una viñeta como línea de base
+4. Agregar a la línea de base los factores que quiero modificar y testear
+5. Probar, probar, probar y seguir probándolos. La validación no es opcional: es obligación
+
 
 ]
+
 ---
 background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
@@ -450,7 +491,7 @@ class: left, middle
 
 **Medición**: Tablas de contingencia y regresiones logísticas
 
- <font size="-1">Basado en Turper, Seded. “Fearing what? Vignette experiments on anti-immigrant sentiments”. Journal of Ethnic and Migration Studies.43(11). Pp. 1792 - 1812. 2017. DOI: 10.1080/1369183X.2016.1263554. </font>
+ <font size="-1">Basado en Turper, Seded (2017). “Fearing what? Vignette experiments on anti-immigrant sentiments”. Journal of Ethnic and Migration Studies.43(11). Pp. 1792 - 1812. 2017. DOI: 10.1080/1369183X.2016.1263554. </font>
 
 ---
 background-image: url(session_2_files/logo_mepop.png)
