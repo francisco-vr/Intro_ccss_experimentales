@@ -95,7 +95,7 @@ knitr::include_graphics("session_2_files/logo_mepop.png")
 ```
 
 ---
-background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -110,7 +110,36 @@ background-position: 97% 97%
 - Analizar distintos ejemplos de experimentos de Lista y Viñetas
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+class: center, middle
+
+## Antes decualquier cosa, haremos una [Encuesta](https://unisdc.qualtrics.com/jfe/form/SV_elI2N2plXCtxySO)
+
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, middle
+
+## Encuestas experimentales
+
+#### Características
+
+- Son encuestas que dentro de sí incluyen preguntas diferenciadas (a modo de tratamiento) y aleatorizadas
+- Tienden a hacerse con n más altos que los de laboratorio (400 - 1600)
+- Habitualmente cortas y sencillas de analizar
+- Variedad de formatos (experimentos de viñetas, de lista, Choice Experiments, Conjoint Expeirments, etc)
+
+#### Desafíos
+
+- Es fácil tender a medir actitudes por sobre comportamiento
+- Para lograr esto último requiere de buenas habilidades de programación y creatividad
+
+
+---
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
 class: center, middle
@@ -126,7 +155,7 @@ class: center, middle
 **El "Sesgo de desabilidad social" es el sesgo producido cuando de contesta creyendo en qué es lo más socialmente aceptable, y no lo que yo realmente pienso**
 
 ---
-background-image: url(Untitled/Untitled_files/logo_mepop.png)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
 
@@ -145,10 +174,7 @@ background-position: 97% 97%
 ### Preguntas típicas con sesgo de deseabilidad social
 
 
-]
-
-
-.pull-right[
+].pull-right[
 
 1. [CEP 2019] "Me gustaría preguntarle sobre acciones que la gente hace para
 protestar contra algo que le parece injusto. ¿Con qué frecuencia usted justificaría o no justificaría las
@@ -168,420 +194,295 @@ siguientes acciones.
 ]
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: center, middle
-
-## Experimentos de lista
-
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: center, middle
-
-## ¿Qué es un experimento?
-
---
-
-
->_"Un experimento es un testeo científico de hipótesis o o principios llevados a cabo bajo condiciones cuidadosamentre controladas de manera de determinar o descubrir algo desconocido. Los experimentos proveen insights sobre la relación entre cosas cuando los cambios en un elemento causan un efecto en otro"_ (Coleman, 2014)
----
-
-
-
----
-background-image: url(Untitled/Untitled_files/logo_mepop.png)
-background-size: 200px
-background-position: 97% 97%
-
-<center> <h2> Bases de los estudios de comportamiento (años 50's - 70's)</h2> </center>
-
-
-```{r, echo=FALSE, fig.align='center', out.width="60%"}
-
-#knitr::include_graphics("session_1_files/venn.png")
-
-```
-
----
-class: inverse center middle
-
-## Componentes fundamentales en un experimento
-
----
-background-image: url(session_1_files/logo_mepop.png)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
 
-## Condiciones experimentales
+## ¿Qué es un experimento de lista?
 
 .pull-left[
 
-```{r, echo=FALSE, out.width="150%"}
+- Un experimento de lista es una técnica no-obstructiva (indirecta) que consiste en la construcción de, al menos, dos set de afirmaciones.
+- La variable dependiente es habitualmente una escala de polaridad que pueden ser emociones, actitudes de aversión, o una simple escala likert. 
 
-#knitr::include_graphics("session_1_files/contro_treat.webp")
-
-```
-
-]
-
-
-.pull-right[
-
-- Son una forma de intervención y modificación del entorno
-
-- Compuesta de al menos dos: un tratamiento y un grupo control
-
-- Teoría e hipótesis deben guiar la construcción de condiciones experimentales
-
-- Debe haber una diferencia sustancial entre condiciones experimentales
-
-- Pueden hacerse diseños sin tratamiento control, pero con línea de base
-
-]
----
-background-image: url(session_1_files/logo_mepop.png)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
-
-## Aleatorización
-
-.pull-left[
-
-
-- Asignación aleatoria de sujetos a cada condición experimental
-
-- Permite diluir atributos personales para hacer un análisis causal más limpio (Tratamiento genera un efecto)
-
-- Si bien la aleatorización simple es la más usada, existen otras técnicas como la aleatorización en bloque
-
-]
-
-
-.pull-right[
-
-```{r, echo=FALSE, out.width="150%"}
-
-#knitr::include_graphics("session_1_files/randomization-3-1024x641.png")
-
-```
-
-]
----
-background-image: url(session_1_files/logo_mepop.png)
-background-size: 200px
-background-position: 97% 97%
-
-## ¿Este es un experimento propiamente tal?
-
---
-
-.pull-left[
-
-- El experimento de Milgram (1963)
-
-- Mide el nivel de obediencia a la autoridad, hasta el punto de causar daños a otras personas
-
-- Usos del engaño varían según disciplina. Actualmente este experimento es irreplicable
+>_"temas sensibles insertados en una lista con numerosos ítemes no-sensibles, y los participantes se les pregunta cuántos de esos ítemes están de acuerdo o les ha ocurrido, pero no cuáles. Este enfoque reduce los costos/riesgos percibidos de responder honestamente"_ (Kramon & Weghorst, 2019)
 
 ]
 
 .pull-right[
 
+#### Principales ventajas
 
-```{r, echo=FALSE, out.width="150%"}
+- Da números mucho más realistas de preguntas donde la gente miente
+- No se les miente a las personas. Es éticamente impecable
+- Llega donde ningun otro tipo de preguntas experimentales puede llegar
+- Usa menos recuersos que otros experimentos (ej: laboratorio)
 
-#knitr::include_graphics("session_1_files/milgram.png")
+
+#### Desventajas
+
+- Sólo entrega datos agregados/grupales
+- Entrega "poca" información
+- Requiere mucho trabajo en el proceso de construcción de listas (validación obligada)
+
+
+]
+
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+class: left, top
+
+## Ejemplo:
+
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+
+knitr::include_graphics("session_2_files/m1.png")
 
 ```
 
-]
 ---
-background-image: url(session_1_files/logo_mepop.png)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
-background-position: 1% 98%
-class: left, middle
+background-position: 97% 97%
+class: left, top
 
-### ¿Cómo analizar los datos experimentales?
-
-
-- De manera más común, se miden a partir de las diferencias entre medias, en particular con el _Averange treatment effect_ (ATE)
-
- 
-
-- Sin embargo, también se puede analizar a partir de métodos como
-
-  - ANOVA'S
-  - MANCOVAS
-  - Test T
-  - Regresiones OLS
-  - Regresiones de máxima verosimilitud (Logit, Probit, etc)
-  - Diff in Diff 
-  
-- Además, existen otros métodos de medición especiales para distintos experimentos (ej: CACE para experimentos de campo)
-
----
-background-image: url(session_1_files/logo_mepop.png)
-background-size: 200px
-background-position: 1% 98%
-class: left, middle
-
-
-## Cuestiones éticas en la investigación experimental
-
-- **Todos los estudios deben ser compensados monetariamente**
-
---
-
-(Sin embargo, no todos se compensan de la misma forma)
-
---
-
-- El uso de la mentira varía: En psicología social se usa mucho; en economía del comportamiento no se usa
-
---
-
-- En estudios políticos, dependerá de la formación de los investigadores y las revistas donde publican
-
---
-
-- **Evitar bajo cualquier circunstancia dañar a los participantes**
-
----
-background-image: url(session_1_files/logo_mepop.png)
-background-size: 200px
-background-position: 1% 98%
-class: left, middle
-
-### Ejemplo de resultados de un experimento de creencia en fake news
+### ¿Cómo se definen?
 
 
 ```{r, echo=FALSE, out.width="80%", fig.align='center'}
 
-#knitr::include_graphics("session_1_files/Experimento2.png")
+knitr::include_graphics("session_2_files/m2.png")
 
 ```
 
 
 ---
-class: inverse center middle
-
-## Tipos de experimentos
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
-class: left, middle
+class: left, top
 
-## Experimentos de Laboratorio
 
-.pull-left[
+### Ejemplo de resultados
 
-```{r, echo=FALSE, out.width="90%", fig.align='center',fig.cap="Laboratorio CESS"}
+```{r, echo=FALSE, out.width="67%", fig.align='center'}
 
-#knitr::include_graphics("session_1_files/cess_lab.jpg")
+knitr::include_graphics("session_2_files/E1Agree.png")
 
 ```
 
-
-]
-
---
-
-.pull-right[
-
-#### Características
-
-- Alto nivel de control de factores exógenos que opdrían ensuciar experimento (alta validez interna)
-- Sujetos experimentales van recintos físicos con distintas tareas (ej: teoría de juegos)
-- Habitualmente con n más reducidos (150 - 300 comúnmente)
-
-#### Desafíos
-
-- Intenso cuestionamiento a su validez externa por representatividad de muestras
-- Puede darse un ṕroblema de validez ecológica (¿Juegos abstractos miden lo que realmente busco?)
-
-]
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(session_1_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, middle
 
-## Ejemplo: 
 
+### _Item Count Technique_ (ICT) o _Unmatched Count Technique_ (UCT)
 
-.pull-left[
+>"El protocopo para el UCT es asignar individuos aleatoriamente dentro de dos grupos. Uno de estos grupos recibe una serie (nos apoyaremos en 5) de 5 declaraciones no-sensibles. A las personas se les pide que nos digan cuántas de esas frases los identifican" (Dalton et.al, 1994)
 
-```{r, echo=FALSE, out.width="90%",fig.align='center', fig.cap="Iredale, W., Van Vugt, M., & Dunbar, R. (2008). Showing Off in Humans: Male Generosity as a Mating Signal. Evolutionary Psychology, 6(3),"}
-
-#knitr::include_graphics("session_1_files/lab_experiment.png")
-
-```
-
-]
-
-.pull-right[
-
-- Colaboración con presión por normas sociales
-- Hombres se vuelven más colaborativos cuando hay una mujer siendo testigo de su colaboración
-
-
-]
-
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
-
-### Ejemplo 2: El valor de la deliberación grupal en la valoración de información validada y falsa
-
-```{r, echo=FALSE, out.width="70%", fig.align='center',fig.cap="Propuesta experimento de efectos de composición de grupos de deliberación en calificación de información"}
-
-#knitr::include_graphics("session_1_files/ejemplo_lab.png")
-
-```
+>El segundo grupo recibe seis declaraciones, cinco de las cuales son inocuas y la sexta es la sensible. 
 
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
+class: center top
 
-## Experimentos de campo
+### Ejemplo (Dalton et.al, 1994)
 
-.pull-left[
-#### Características
+Control                                               | Tratamiento
+------------------------------------------------------|----------------------------------------------------------------------------------------
+Usualmente tomo suplementos vitamínicos todos los días| Usualmente tomo suplementos vitamínicos todos los días
+He leído "El príncipe"                                | He leído "El príncipe"   
+Hay un arma en la casa donde vivo                     | Estoy involucrado en el robo de dinero o insumos a mi empleador por más de 5 mil pesos
+He vivido en dos o más estados                        | Hay un arma en la casa donde vivo   
+He vivido en otros países diferentes de EEUU          | He vivido en dos o más estados   
+                                                      | He vivido en otros países diferentes de EEUU 
+                                                      
+<br>
 
-- Realizados en los entornos donde se encuentran las personas que queremos investigar
-- Utilizan los elementos del medio en que se encuentran para realizar el experimento
-- Son económicos (no necesariamente se pagan)
-- Alcanzan una alta validez externa
 
-#### Desafíos
-
-- Existe una pérdida considerable de control del entorno, por lo que pueden haber variables que interrumpan
-- Alta atrición
-- Requiere un diseño altamente robusto
-
-]
-
---
-
-.pull-right[
-
-```{r,echo=FALSE,out.width="110%",fig.align='center',fig.cap="A/B Testing para ver comportamiento en base a distintas interfaces gráficas"}
-
-#knitr::include_graphics("session_1_files/test-AB-2.webp")
-
-```
- 
-
-]
+**¿Cuántas de estas declaraciones le identifican?**
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
-class: left, middle
+class: left, top
 
-**
+## Forma de análisis
 
-```{r,echo=FALSE,fig.align='center',out.width="45%",fig.cap="Bail et.al(2018). Exposure to opposing views on social media can increase political polarization. PNAS. vol. 115. N°37"}
+$$ \hat{p} = media_t - media_c$$
+Donde:
 
-#knitr::include_graphics("session_1_files/pnas.1804840115fig01.jpeg")
+1. $\hat{p}$ = Proporción de sujetos involucrados en el comportamiento sensible.
+2. $mean_c$ = Media del número de declaraciones con las cuales la gente se identifica, sin la declaración sensible
+3. $mean_t$ = Media del número de delaraciones con las cuales la gente se identifica
 
-```
+Entonce, como ejemplo: 
 
+$$\hat{p} = 2.31 - 2.1$$
+$$\hat{p} = 0.21$$
 
-
-
+Podemos concluir que un 21% de la población de ambos grupos ha robado insumos o dinero a su empleador, sin preguntar directamente.
 
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
-class: left, middle
+class: left, top
 
-## Encuestas experimentales
-
-.pull-left[
-#### Características
-
-- Son encuestas que dentro de sí incluyen preguntas diferenciadas (a modo de tratamiento) y aleatorizadas
-- Tienden a hacerse con n más altos que los de laboratorio (400 - 1600)
-- Habitualmente cortas y sencillas de analizar
-- Variedad de formatos (experimentos de viñetas, de lista, Choice Experiments, Conjoint Expeirments, etc)
-
-#### Desafíos
-
-- Es fácil tender a medir actitudes por sobre comportamiento
-- Para lograr esto último requiere de buenas habilidades de programación y creatividad
-
-]
-
---
-
-.pull-right[
+### ¿Qué tanto cambian los resultados?
 
 ```{r, echo=FALSE, out.width="90%", fig.align='center'}
 
-#knitr::include_graphics("session_1_files/cess_lab.jpg")
+knitr::include_graphics("session_2_files/ICT_results.png")
 
 ```
+ 
+ <br>
+ <br>
+ 
+ <font size="-1">Basado en LaBrie, J& Earleywine, M (2014). <em>Sexual risk behaviors and alcohol: Higher base rates revealed using the unmatched-count Technique</em>. The Journal of Sex research. 321-326.  </font>
 
-
-]
----
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
-background-size: 200px
-background-position: 97% 97%
-class: left, middle
-
-## Otros tipos de experimentos
-
-.pull-left[
-#### Experimentos Naturales
-
-- Experimentos que utilizan intervenciones que no son creadas por el investigador para analizar cambios de comportamiento
-- ej: Medición de interacción en RRSS durante el período de campaña electoral (antes y después)
-- Su desafío principal es poder aislar causas y efectos, junto con la creación de un contrafactual
-
-]
-
---
-
-.pull-right[
-
-#### _Lab-in-the-field Experiments_
-
-- Experimentos diseñados como de laboratorio, pero aplicados en entornos naturales
-- Busca darle el rigor y control propio de los experimentos de laboratorio, pero en entornos más realistas propios del campo
-- Habitualmente requieren un nivel de programación y recursos mayores (ej: llevar tablets al campo y varios ayudantes)
-
-]
 
 ---
 class: inverse center middle
 
-## Entonces: ¿Cómo puedo saber qué experimento me sirve?
+# Experimentos de viñeta
 
--- 
 
-Todo depende de cuáles son las preguntas de investigación
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 97% 97%
+
+## Definición
 
 --
 
+.pull-left[
+
+
+
+]
+
+.pull-right[
+
+#### ¿Qué es una viñeta?
+
+>_"una viñeta es una descripción de una persona objeto o situación cuidadosamente construida, representando una combinación sistemática de características"(Atmüller y Steiner,2010)
+
+]
 ---
-background-image: url(Actitudes_files/Logo-Psicología-UDD.jpg)
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+##Balance
+
+#### Ventajas
+
+- Se pueden dar conclusiones de tipo causal a partir de la combinatoria de factores
+- Se pueden combinar una cantidad gigante de factores (hasta 96 condiciones experimentales!)
+- Es menos obstructiva que otras formas de experimentos
+- Se usa mucho para analizar cuestiones como racismo, pobreza, discriminación, criminalidad, etc
+
+--
+
+#### Desventajas
+
+- Está principalmente a nivel de medición de actitudes
+- No está completamente libre de sesgo de deseabilidas social
+- Difícil de hacer viñetas de buena calidad cuando no es texto (sobretodo videos)
+-
+
+---
+background-image: url(session_2_files/logo_mepop.pngg)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+## Ejemplo 1
+
+
+
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+
+
+knitr::include_graphics("session_2_files/m5.png")
+
+```
+
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+## Ejemplo 1 - Diseños factoriales
+
+
+
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+knitr::include_graphics("session_2_files/m6.png")
+
+```
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+
+### Ejemplo 2 - Comportamiento frente a migrantes
+
+**Tema**: Actualmente la Política migratoria es uno de los temás más relevantes en Europa. Como distintos partidos de derecha crecen a partir de actitudes anti-migración, se vuelte tema crucial para entender la Política Europea contemporánea
+
+**Propuesta**: Estudio 1: Se analiza el nivel de apoyo a inmigrantes cuando interactúan dos factores: Económicos y criminalidad
+
+**Diseño**: 3 Tratamientos con viñetas: Texto para aprobar la renovación de inmigrantes. Las viñetas mezclan atributos económicos y nivel de respeto a la ley.  Los participantes deben aprovar o rechazar la petición del inmigrante.
+
+**Diseño**: 3x2 (Cesante/Trabajador a contrata/ Autoempleado) x (Respetuoso de la ley / Infractor de ley)
+
+**Medición**: Tablas de contingencia y regresiones logísticas
+
+ <font size="-1">Basado en Turper, Seded. “Fearing what? Vignette experiments on anti-immigrant sentiments”. Journal of Ethnic and Migration Studies.43(11). Pp. 1792 - 1812. 2017. DOI: 10.1080/1369183X.2016.1263554. </font>
+
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+
+knitr::include_graphics("session_2_files/result_inmigrant1.png")
+
+```
+
+Los infractores de ley tienen más altas tazas de rechazo y desempleados en segundo lugar. Ambas variables se vuelven relevantes
+
+---
+background-image: url(session_2_files/logo_mepop.png)
+background-size: 200px
+background-position: 1% 98%
+class: left, middle
+```{r, echo=FALSE, out.width="80%", fig.align='center'}
+
+knitr::include_graphics("session_2_files/inmigrant_2.png")
+
+```
+
+nmigrantes potencialmente receptores de beneficios tienen casi 4 veces y media posibilidades de ser rechazados en comparación a los emprendedores. 
+
+El no cumplimiento de la ley es un preditor mucho más poderoso de rechazo que los costos económicos. Hasta 16 veces más probable su rechazo.
+
+
+---
+background-image: url(session_2_files/logo_mepop.png)
 background-size: 200px
 background-position: 97% 97%
 class: left, top
@@ -590,11 +491,15 @@ class: left, top
 
 - Coleman, Renita (2018). _Designing Experiments for the Social Sciences: How to Plan, Create, and Execute Research Using Experiments_. SAGE.
 
-- Morton, R & Williams, K (2011). _Experimental political science and the study of causality_. UK: Cambridge University press. 
+- Mutz, Diana (2011). _Population-based survey experiments_. Princeton University Press. 
 
-- Gerber, A. & Green, D (2012). _Field Experiments. Design, analysis and interpretation_. NY: Norton & Company.
+- Atzmüller, C & Steiner, P (2010). _Experimental Vignette Studies in Survey Research_. Methodoloogy. Vol 6, N°3. 128 - 138. 
 
-- Druckman, J & Green, D (2021). _Advances in experimental political Science_. UK: Cambridge University Press.
+- Dalton et.al (1994). _Using the unmatched count technique (UCT) to estimate base rates for sensitive behavior_. Personnel Psychology. Vol.47, N°4. 817 - 829.
+
+- Labrie, J. & Earlywine, M. (2014). _The Item Count Technique as a Method of Indirect Questioning: A Review of Its Development and a Case Study Application_. In Biemer et.al. Wiley Series un probability and Statistics. 185 - 210.
+
+- Kuklinski, J. et. al. (1997). _Racial Attitudes and the "New South"_. The journal of politics. Vol. 59, N°2. 323 - 349.
 
 ---
 class: inversed, center, middle
